@@ -1,5 +1,5 @@
 ﻿Book book = new Book("C# Book", "description", "Alex Shevchuk", new DateOnly(2024, 1, 7));
-book.Description = "";
+book.Description = ""; 
 
 Console.WriteLine(book.Rating != null ? book.Rating : "there is no rating");
 Console.WriteLine(book.GetInfo());
